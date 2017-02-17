@@ -1,0 +1,50 @@
+*-------------------------------------------------------------------*
+*			--|| 42sh Recap ||--			    *
+*-------------------------------------------------------------------*
+*								    *
+*  --|| augier_j - bayard_a - giquel_m - goncal_n - antoin_l ||--   *
+*  		   	      	       	 	    	     	    *
+*-------------------------------------------------------------------*
+*								    *
+* -- Functional --						    *
+*								    *
+*   _ simple command with parameter				    *
+*								    *
+*   _ managing path						    *
+*   _ managing error & return value				    *
+*   _ managing spaces & tabulations				    *
+*     	       	      						    *
+*   _ full redirections (simple left & right, double left & right)  *
+*     	   			       	      	     	    	    *
+*   _ pipe							    *
+*     								    *
+*   _ builtins :						    *
+*      --> cd  							    *
+*      --> cd -							    *
+*      --> cd ~/						    *
+*      --> cd /example						    *
+*      --> exit (single & with return value)			    *
+*      --> echo		       	      				    *
+*      	   							    *
+*   _ full setenv						    *
+*   _ partial unsetenv						    *
+*     	      							    *
+*   _ multicommand with ;					    *
+*     		   						    *
+*-------------------------------------------------------------------*
+*								    *
+* -- Not Functional --						    *
+*								    *
+*   _ multicommand with || and &&				    *
+*   _ multicommand with builtins				    *
+*     		   						    *
+*-------------------------------------------------------------------*
+
+Moulinette results :
+---------------------------------------
+| Simple exec : OK OK OK OK	      | --> 4/4
+---------------------------------------
+| Change the PATH : OK OK OK OK OK OK | --> 6/6
+---------------------------------------
+| Builtins : OK KO OK KO	      | --> 3/4
+---------------------------------------

@@ -1,0 +1,16 @@
+a42sh
+auteur
+builtins
+exec
+features.txt
+include
+lib
+ls
+main.c
+main.o
+Makefile
+moul_42sh.sh
+myls
+parsing
+redirect
+test
